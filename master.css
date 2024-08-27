@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* scroll-behavior: smooth; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --onecolor: #2c6ccf;
+    --twocolor: #cf2c2c;
+    --threecolor: #309e0e;
+    --fourcolor: #cd661a;
+    --colo: white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #00030050;
+    padding: 10px;
+}
+
+/** H-shadow / V-shadow / Blur / Spread / Color / type**/
+/** النوع / اللون / الانتشار / الضباب /    طولي /  افقي **/
+
+div {
+    margin: 200px auto;
+    width: 100px;
+    height: 100px;
+    background-color: #787878;
+    box-shadow: -52px -52px 0 0 #f65314, 52px -52px 0 0 #7cbb00, 52px 52px #fb0, -52px 52px #00a1f1;
+}
+
+.logo{
+    /* margin: 200px auto;
+    width: 100px;
+    height: 100px;
+    background-color: #787878;
+    padding: 10px;
+    box-shadow: 
+         -60px -60px #f65314,
+        63px -60px #7cbb00,
+        63px 64px #fb0,
+        -60px 64px #00a1f1;  */
+}
